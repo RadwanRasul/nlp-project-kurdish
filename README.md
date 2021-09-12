@@ -77,7 +77,7 @@ For this project we have used the UD Kurmanji treebank.
 }
 ```
 
-This project was implemented using Scikit-Learn.
+This project was implemented using scikit-learn.
 
 ```
 @article{scikit-learn,
