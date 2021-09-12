@@ -1,6 +1,6 @@
 <h1 align="center">Training and evaluating a POS-Tag model for Kurmanji-Kurdish using Scikit-Learn</h1>
 
-<p align="center">This project aims to examine the UD Kurmanji-Kurdish treebank used by Stanza to train the language model "kmr". Trying to find out the potential reasons for the low unlabeled attachment score (UAS) of Stanza’s model, we extracted tokens and POS-tags from the UD-treebank, trained and evaluated a POS-tag model using Scikit-Learn. In our search for an answer, we also did some linguistic analyses.</p>
+<p align="center">This project aims to examine the UD Kurmanji-Kurdish treebank used by Stanza to train the language model "kmr". Trying to find out the potential reasons for the low unlabeled attachment score (UAS) of Stanza’s model, we extracted tokens and POS-tags from the UD-treebank, trained and evaluated a POS-tag model using scikit-learn. In our search for an answer, we also did some linguistic analyses.</p>
 
 
 ## :heavy_check_mark: Requirements
@@ -11,7 +11,7 @@
 
 The following open source packages are used in this project:
 
-Scikit-Learn
+scikit-learn
 
 Matplotlib
 
@@ -35,7 +35,7 @@ To run this project, you need to:
   pip install conllu
 ```
 
-:arrow_right: install [Scikit-Learn](https://scikit-learn.org/)
+:arrow_right: install [scikit-learn](https://scikit-learn.org/)
 
 ```
   pip install -U scikit-learn
