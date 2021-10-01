@@ -47,6 +47,12 @@ To run this project, you need to:
   pip install ipython
 ```
 
+:arrow_right: install [NLTK](https://pypi.org/project/nltk/)
+
+```
+  pip install NLTK
+```
+
 :arrow_right: download our Jupyter Notebook file which you can find under the main branch of this repository
 
 :arrow_right: upload this Jupyter Notebook file to your local host so that you can run our code
@@ -56,6 +62,42 @@ To run this project, you need to:
 :arrow_right: save these files in the same directory where you uploaded the Jupyter Notebook file
 
 :arrow_right: do not forget to change the names of your Pickle files before you run that code block
+
+## Example sentence
+```python
+>>> example_txt = """Parlamentarên nû yên SPD roja Çarşemê li Berlînê civiyan. 
+Bi tevahî 206 parlamentar li hev kom bûn û tenê Karl Lauterbach maskek li xwe kir bû.
+"""
+>>> predict_tags(example_txt)
+[('Parlamentarên', 'NOUN'),
+ ('nû', 'ADP'),
+ ('yên', 'NOUN'),
+ ('SPD', 'NOUN'),
+ ('roja', 'ADP'),
+ ('Çarşemê', 'NOUN'),
+ ('li', 'AUX'),
+ ('Berlînê', 'NOUN'),
+ ('civiyan', 'NOUN'),
+ ('.', 'ADP'),
+ ('Bi', 'NOUN'),
+ ('tevahî', 'ADP'),
+ ('206', 'NOUN'),
+ ('parlamentar', 'NOUN'),
+ ('li', 'CCONJ'),
+ ('hev', 'NOUN'),
+ ('kom', 'ADP'),
+ ('bûn', 'NOUN'),
+ ('û', 'NOUN'),
+ ('tenê', 'NOUN'),
+ ('Karl', 'NOUN'),
+ ('Lauterbach', 'NOUN'),
+ ('maskek', 'NOUN'),
+ ('li', 'NOUN'),
+ ('xwe', 'ADP'),
+ ('kir', 'NOUN'),
+ ('bû', 'ADP'),
+ ('.', 'NOUN')]
+```
 
 ## :fountain_pen: Authors
 
