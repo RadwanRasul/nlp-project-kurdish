@@ -141,7 +141,3 @@ Our project is licensed under the Creative Commons License Attribution-ShareAlik
 
 The complete license text is available at:
 http://creativecommons.org/licenses/by-sa/4.0/legalcode
-
-## :books: Remarks
-
-✤ This is the final project for the course Advanced Natural Language Processing with Python (Summer 2021), at [Heinrich-Heine-Universität Düsseldorf](https://www.hhu.de/)
