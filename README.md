@@ -1,6 +1,6 @@
-<h1 align="center">Training and evaluating a POS-Tag model for Kurmanji-Kurdish using scikit-learn</h1>
+<h1 align="center">Training a POS-Tagger for Kurdish using scikit-learn</h1>
 
-<p align="center">This project aims to examine the UD Kurmanji-Kurdish treebank used by Stanza to train the language model "kmr". Trying to find out the potential reasons for the low unlabeled attachment score (UAS) of Stanza’s model, we extracted tokens and POS-tags from the UD-treebank, trained and evaluated a POS-tag model using scikit-learn. In our search for an answer, we also did some linguistic analyses.</p>
+<p align="center">We examined the UD Kurmanji-Kurdish treebank used by Stanza to train the language model "kmr". Trying to find out the potential reasons for the low unlabeled attachment score (UAS) of Stanza’s model, we extracted tokens and POS-tags from the UD-treebank, trained and evaluated a POS-tag model using scikit-learn.</p>
 
 
 ## :heavy_check_mark: Requirements
